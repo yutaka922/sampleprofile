@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(rgb(255, 242, 199),rgb(146, 230, 255));
+}
+
+.container {
+  /* background-color: tomato; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto 10px auto;
+}
+
+.icon img {
+  border-radius: 50%;
+  border: 5px solid rgb(193, 228, 224);
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 auto;
+}
+
+.item-conteiner {
+  /* border: 2px solid tomato; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-item {
+  padding: 0 10px;
+}
+
+main {
+  margin: 0 40px;
+}
+
+footer {
+  text-align: center;
+  margin: 50px;
+}
